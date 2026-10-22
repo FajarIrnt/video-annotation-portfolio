@@ -51,43 +51,47 @@ The project focuses on bounding box annotation, tracking ID consistency, object 
 
 ## Examples
 
-### 1. Pedestrian Tracking
+## 1. Pedestrian Tracking
 
-**Annotation Example**
+This sample demonstrates pedestrian annotation and tracking across video frames.
 
-![Pedestrian Annotation](Pedestrian_Annotation_Sample_02.png)
+### Annotation Example
 
-**Dataset Overview**
+![Pedestrian Annotation](samples/pedestrian-tracking/Pedestrian_Annotation_Sample_02.png)
 
-![Pedestrian Dataset Overview](Pedestrian_dataset_overview_sample_02.png)
+### Dataset Overview
 
-**Tracking Across Frames**
+![Pedestrian Dataset Overview](samples/pedestrian-tracking/Pedestrian_dataset_overview_sample_02.png)
+
+### Tracking Across Frames
 
 **Frame 11**
 
-![Pedestrian Tracking Frame 11](Pedestrian_tracking_sample_02_frame_11.png)
+![Pedestrian Tracking Frame 11](samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_11.png)
 
 **Frame 42**
 
-![Pedestrian Tracking Frame 42](Pedestrian_tracking_sample_02_frame_42.png)
+![Pedestrian Tracking Frame 42](samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_42.png)
 
-**Annotation Export**
+### Annotation Export
 
 [Download Pedestrian Tracking Annotations (ZIP)](annotations/Pedestrian_Tracking_Sample_02.zip)
 
 ---
 
-### 2. Vehicle Tracking
+## 2. Vehicle Tracking
 
-**Annotation Example**
+This sample demonstrates vehicle annotation and tracking in an urban street scene, including tracking continuity and partial occlusion.
+
+### Annotation Example
 
 ![Vehicle Annotation](samples/vehicle-tracking/Vehicle_annotation_sample_01.png)
 
-**Dataset Overview**
+### Dataset Overview
 
 ![Vehicle Dataset Overview](samples/vehicle-tracking/Vehicle_dataset_overview_sample_01.png)
 
-**Tracking Across Frames**
+### Tracking Across Frames
 
 **Frame 160**
 
@@ -97,7 +101,7 @@ The project focuses on bounding box annotation, tracking ID consistency, object 
 
 ![Vehicle Tracking Frame 188](samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_188.png)
 
-**Annotation Export**
+### Annotation Export
 
 [Download Vehicle Tracking Annotations (ZIP)](annotations/Vehicle_tracking_sample_01.zip)
 
