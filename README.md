@@ -90,7 +90,11 @@ This sample demonstrates vehicle annotation and tracking in an urban street scen
 
 Vehicle tracking practice footage:
 
-[Busy Street — Pexels](https://www.pexels.com/video/busy-street-1192116/)
+[Vehiche](https://www.pexels.com/video/trafik-akisi-19696723/)
+
+Pedestrian tracking practice footage:
+
+[Pedestrian](https://www.pexels.com/video/aerial-view-of-people-walking-in-open-space-37473200/)
 
 The original footage belongs to its respective creator. Annotations are created separately for personal practice and portfolio demonstration.
 
