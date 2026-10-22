@@ -26,21 +26,21 @@ This sample demonstrates pedestrian annotation and tracking across video frames.
 
 ### Annotation Example
 
-![Pedestrian Annotation](screenshots/Pedestrian_Annotation_Sample_02.png)
+![Pedestrian Annotation](samples/pedestrian-tracking/Pedestrian_Annotation_Sample_02.png)
 
 ### Dataset Overview
 
-![Pedestrian Dataset Overview](screenshots/Pedestrian_dataset_overview_sample_02.png)
+![Pedestrian Dataset Overview](samples/pedestrian-tracking/Pedestrian_dataset_overview_sample_02.png)
 
 ### Tracking Across Frames
 
 **Frame 11**
 
-![Pedestrian Tracking Frame 11](screenshots/Pedestrian_tracking_sample_02_frame_11.png)
+![Pedestrian Tracking Frame 11](samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_11.png)
 
 **Frame 42**
 
-![Pedestrian Tracking Frame 42](screenshots/Pedestrian_tracking_sample_02_frame_42.png)
+![Pedestrian Tracking Frame 42](samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_42.png)
 
 ### Annotation Export
 
@@ -54,21 +54,21 @@ This sample demonstrates vehicle annotation and tracking in an urban street scen
 
 ### Annotation Example
 
-![Vehicle Annotation](screenshots/Vehicle_annotation_sample_01.png)
+![Vehicle Annotation](samples/vehicle-tracking/Vehicle_annotation_sample_01.png)
 
 ### Dataset Overview
 
-![Vehicle Dataset Overview](screenshots/Vehicle_dataset_overview_sample_01.png)
+![Vehicle Dataset Overview](samples/vehicle-tracking/Vehicle_dataset_overview_sample_01.png)
 
 ### Tracking Across Frames
 
 **Frame 160**
 
-![Vehicle Tracking Frame 160](screenshots/Vehicle_tracking_sample_01_frame_160.png)
+![Vehicle Tracking Frame 160](samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_160.png)
 
 **Frame 188**
 
-![Vehicle Tracking Frame 188](screenshots/Vehicle_tracking_sample_01_frame_188.png)
+![Vehicle Tracking Frame 188](samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_188.png)
 
 ### Annotation Export
 
