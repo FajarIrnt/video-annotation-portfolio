@@ -1,115 +1,114 @@
-# Video Annotation Portfolio
-### Pedestrian & Vehicle Tracking | CVAT
+# Video Annotation Portfolio — Pedestrian & Vehicle Tracking
 
 ## Project Overview
 
-This portfolio showcases my personal practice in video annotation and object tracking using CVAT (Computer Vision Annotation Tool).
+A personal portfolio project demonstrating manual video annotation and object tracking using CVAT (Computer Vision Annotation Tool).
 
-The project focuses on bounding box annotation, tracking ID consistency, object visibility, occlusion handling, and annotation review across video frames.
+The project focuses on drawing bounding boxes around pedestrians and vehicles, maintaining consistent tracking IDs across video frames, and handling partially occluded objects.
 
-## Tools & Skills
+## Dataset
 
-- CVAT (Computer Vision Annotation Tool)
-- Video Object Annotation
-- Bounding Box Annotation
-- Pedestrian Tracking
-- Vehicle Tracking
-- Tracking ID Consistency
-- Occlusion Handling
-- Annotation Quality Review
+- Pedestrian tracking video sample
+- Vehicle tracking video sample
+- Video frame annotation using bounding boxes
+- Object tracking across consecutive frames
+- CVAT annotation exports in ZIP format
 
----
+## Annotation Categories
 
-## 1. Pedestrian Tracking
+### Pedestrian Tracking
 
-This sample demonstrates pedestrian annotation and tracking across video frames.
+- Person detection and bounding box annotation
+- Tracking ID consistency across frames
+- Object visibility and occlusion handling
 
-### Annotation Example
+### Vehicle Tracking
 
-![Pedestrian Annotation](samples/pedestrian-tracking/Pedestrian_Annotation_Sample_02.png)
+- Vehicle bounding box annotation
+- Tracking ID consistency across frames
+- Partial occlusion handling
+- Tracking continuity across frames
 
-### Dataset Overview
+## Workflow
 
-![Pedestrian Dataset Overview](samples/pedestrian-tracking/Pedestrian_dataset_overview_sample_02.png)
+1. Prepared video samples for annotation practice.
+2. Created annotation tasks in CVAT.
+3. Configured labels for pedestrians and vehicles.
+4. Drew bounding boxes around visible objects.
+5. Assigned and maintained tracking IDs across frames.
+6. Reviewed object visibility and occlusion.
+7. Checked annotation consistency and exported the results.
 
-### Tracking Across Frames
+## Quality Check
 
-**Frame 11**
+- Checked bounding box placement.
+- Checked label consistency.
+- Reviewed tracking ID continuity.
+- Reviewed partially occluded objects.
+- Checked annotations across multiple frames.
+- Exported annotation data from CVAT for review.
 
-![Pedestrian Tracking Frame 11](samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_11.png)
+## Examples
 
-**Frame 42**
+### Pedestrian Tracking Sample
 
-![Pedestrian Tracking Frame 42](samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_42.png)
+**Annotation Example**
 
-### Annotation Export
+[Pedestrian Bounding Box Annotation](samples/pedestrian-tracking/Pedestrian_Annotation_Sample_02.png) ([image](https://github.com/FajarIrnt/video-annotation-portfolio/raw/main/samples/pedestrian-tracking/Pedestrian_Annotation_Sample_02.png))
+
+**Dataset Overview**
+
+[Pedestrian Dataset Overview](samples/pedestrian-tracking/Pedestrian_dataset_overview_sample_02.png) ([image](https://github.com/FajarIrnt/video-annotation-portfolio/raw/main/samples/pedestrian-tracking/Pedestrian_dataset_overview_sample_02.png))
+
+**Tracking Examples**
+
+[Pedestrian Tracking — Frame 11](samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_11.png) ([image](https://github.com/FajarIrnt/video-annotation-portfolio/raw/main/samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_11.png))
+
+[Pedestrian Tracking — Frame 42](samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_42.png) ([image](https://github.com/FajarIrnt/video-annotation-portfolio/raw/main/samples/pedestrian-tracking/Pedestrian_tracking_sample_02_frame_42.png))
+
+**Annotation Export**
 
 [Download Pedestrian Tracking Annotations (ZIP)](annotations/Pedestrian_Tracking_Sample_02.zip)
 
----
+### Vehicle Tracking Sample
 
-## 2. Vehicle Tracking
+**Annotation Example**
 
-This sample demonstrates vehicle annotation and tracking in an urban street scene, including tracking consistency and partially occluded vehicles.
+[Vehicle Bounding Box Annotation](samples/vehicle-tracking/Vehicle_annotation_sample_01.png) ([image](https://github.com/FajarIrnt/video-annotation-portfolio/raw/main/samples/vehicle-tracking/Vehicle_annotation_sample_01.png))
 
-### Annotation Example
+**Dataset Overview**
 
-![Vehicle Annotation](samples/vehicle-tracking/Vehicle_annotation_sample_01.png)
+[Vehicle Dataset Overview](samples/vehicle-tracking/Vehicle_dataset_overview_sample_01.png) ([image](https://github.com/FajarIrnt/video-annotation-portfolio/raw/main/samples/vehicle-tracking/Vehicle_dataset_overview_sample_01.png))
 
-### Dataset Overview
+**Tracking Examples**
 
-![Vehicle Dataset Overview](samples/vehicle-tracking/Vehicle_dataset_overview_sample_01.png)
+[Vehicle Tracking — Frame 160](samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_160.png) ([image](https://github.com/FajarIrnt/video-annotation-portfolio/raw/main/samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_160.png))
 
-### Tracking Across Frames
+[Vehicle Tracking — Frame 188](samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_188.png) ([image](https://github.com/FajarIrnt/video-annotation-portfolio/raw/main/samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_188.png))
 
-**Frame 160**
-
-![Vehicle Tracking Frame 160](samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_160.png)
-
-**Frame 188**
-
-![Vehicle Tracking Frame 188](samples/vehicle-tracking/Vehicle_tracking_sample_01_frame_188.png)
-
-### Annotation Export
+**Annotation Export**
 
 [Download Vehicle Tracking Annotations (ZIP)](annotations/Vehicle_tracking_sample_01.zip)
 
----
+## Video Sources
 
-## Annotation Workflow
+**Vehicle Tracking**
 
-1. Prepare the video sample for annotation.
-2. Configure object labels in CVAT.
-3. Draw bounding boxes around target objects.
-4. Assign and maintain tracking IDs across frames.
-5. Review keyframes and interpolated annotations.
-6. Handle partial occlusion and object visibility.
-7. Review annotation consistency and export the results.
+[Vehicle Tracking Video — Pexels](https://www.pexels.com/video/trafik-akisi-19696723/)
 
-## Video Source
+**Pedestrian Tracking**
 
-Vehicle tracking practice footage:
+[Pedestrian Tracking Video — Pexels](https://www.pexels.com/video/aerial-view-of-people-walking-in-open-space-37473200/)
 
-[Vehiche](https://www.pexels.com/video/trafik-akisi-19696723/)
+The original footage belongs to its respective creator. Annotations were created separately for personal practice and portfolio demonstration.
 
-Pedestrian tracking practice footage:
+## Tools
 
-[Pedestrian](https://www.pexels.com/video/aerial-view-of-people-walking-in-open-space-37473200/)
+- CVAT
+- Pexels
 
-The original footage belongs to its respective creator. Annotations are created separately for personal practice and portfolio demonstration.
+## Project Scope
 
-## Project Type
+This is a personal learning portfolio focused on video annotation, object tracking, and annotation quality checking.
 
-Personal practice project. The samples demonstrate practical familiarity with video annotation, object tracking, and annotation review using CVAT.
-
-## Related Portfolios
-
-- [Main Profile Portfolio](https://github.com/FajarIrnt/Profile-Portfolio)
-- [Image Annotation Portfolio](https://github.com/FajarIrnt/image-annotation-portfolio)
-- [AI Speech Evaluation Portfolio](https://github.com/FajarIrnt/ai-speech-evaluation-portfolio)
-
-## Author
-
-**Fajar Irianto**
-
-[GitHub Profile](https://github.com/FajarIrnt)
+The exported ZIP files contain annotation data in XML format. They are annotation exports, not rendered MP4 videos with bounding boxes overlaid on the footage.
